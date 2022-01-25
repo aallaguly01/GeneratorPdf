@@ -1,0 +1,23 @@
+POST http://localhost/login
+Content-Type: application/json
+
+{
+  "email": "aallaguly01@gmail.com",
+  "password": "qwerty007"
+}
+
+###
+
+POST http://localhost/statements
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiY3JlYXRlZEF0IjoiMjAyMi0wMS0yNVQwMDo0MzozMC4zODc0MzciLCJyb2xlIjoiVVNFUiIsInN0YXRlIjoiQUNUSVZFIiwiZW1haWwiOiJhYWxsYWd1bHkwMUBnbWFpbC5jb20ifQ.vfgH6tmcwvQo1HD6Kv1MvDzr3iRpMfM4gcspMXcWZno
+Content-Type: application/json
+
+{
+  "firstName": "wer123",
+  "lastName": "324123"
+}
+
+###
+
+GET http://localhost/logout
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiY3JlYXRlZEF0IjoiMjAyMi0wMS0yNVQwMDozNToyMC45MjI4NjQiLCJyb2xlIjoiVVNFUiIsInN0YXRlIjoiQUNUSVZFIiwiZW1haWwiOiJhYWxsYWd1bHkwMUBnbWFpbC5jb20ifQ.m_nBApetUu6lCMFSXyTe-NdSEiObiQ5izMnTUZgtmPA
